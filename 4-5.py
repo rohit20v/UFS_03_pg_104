@@ -1,7 +1,7 @@
 def populateList(b: list):
     odd = 1
     even = 0
-    while odd <= len(b) + 1 or even < len(b):
+    while odd < len(b) + 1 or even < len(b):
         try:
             number = int(input("Enter a number: "))
             if number % 2 == 0:
